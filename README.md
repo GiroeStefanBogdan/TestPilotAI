@@ -35,8 +35,8 @@ It’s powered by OpenAI's GPT-4o and a browser automation agent, making it idea
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/GiroeStefanBogdan/testpilotai.git
-cd testpilotai
+git clone git@github.com:GiroeStefanBogdan/TestPilotAI.git
+cd TestPilotAI
 ```
 
 ### 2. Create a .env File
