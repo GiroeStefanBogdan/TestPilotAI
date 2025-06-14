@@ -75,7 +75,7 @@ playwright install chromium --with-deps --no-shell
 pip install "browser-use[memory]"
 ```
 
-### 6. Project Structure
+### 8. Project Structure
 
 ```bash
 testpilotai/
@@ -85,7 +85,7 @@ testpilotai/
 └── README.md            # Project documentation
 ```
 
-### 7. How It Works
+### 9. How It Works
 
 The app uses GPT-4o to interpret and execute a browser task like this: 
 
@@ -102,7 +102,7 @@ agent = Agent(
 result = await agent.run()
 ```
 
-### 8. Example Use Cases
+### 10. Example Use Cases
 
 ```bash
 🧪 Example Use Cases
@@ -112,19 +112,19 @@ result = await agent.run()
     🔍 Extract price and availability info
 ```
 
-### 9. 📜 License
+### 11. 📜 License
 
 ```bash
 MIT License. Fork it, test it, improve it — open source all the way.
 ```
 
-### 10. 🤝 Contributing
+### 12. 🤝 Contributing
 
 ```bash
 Pull requests and ideas welcome!
 If you make it smarter, faster, or prettier — open a PR.
 ```
 
-### 11. 📮 Contact
+### 13. 📮 Contact
 
 # Made with ❤️ by @GiroeStefanBogdan
