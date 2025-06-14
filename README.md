@@ -57,10 +57,22 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 5. Install everything is in requirements.txt
+### 5. Install everything in requirements.txt
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 6. Install the browser:
+
+```bash 
+playwright install chromium --with-deps --no-shell
+```
+ 
+### 7. For memory funcionality(requires Python<3.13 due to PyTorch compatibility>)
+
+```bash
+pip install "browser-use[memory]"
 ```
 
 ### 6. Project Structure
